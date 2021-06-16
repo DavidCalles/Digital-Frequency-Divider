@@ -1,0 +1,56 @@
+-- PARKING INDICATOR LAB
+
+--****************************************************
+--	Description: Get outputs for the 7 segments from 
+--					 a 4-bit  input (just 1 digit)
+--	
+--	Inputs: [3:0] ones, number to be displayed
+--	
+--	Outputs: reg[6:0] segments, obtained through 
+--				behavioral description. (low means ON)
+--***************************************************/
+
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.NUMERIC_STD.ALL;
+
+-- Entity declaration
+
+entity Counter_28bit is
+
+    port(clk  : in std_logic_vector(2 downto 0);     
+         Y  : out std_logic_vector(7 downto 0));
+			
+
+end DCalles_Lab4_OctalDecoder;
+
+-- Architecture definition
+
+architecture Behavioral of DCalles_Lab4_OctalDecoder is
+
+begin
+	process(clk)
+	begin
+		case X is
+			when "000"  =>
+				Y <= "00000001"; -- segment 0
+			when "001"  =>   
+				Y <= "00000010"; -- segment 1
+			when "010"  =>   
+				Y <= "00000100"; -- segment 2
+			when "011"  =>   
+				Y <= "00001000"; -- segment 3
+			when "100"  =>   
+				Y <= "00010000"; -- segment 4
+			when "101"  =>   
+				Y <= "00100000"; -- segment 5
+			when "110"  =>   
+				Y <= "01000000"; -- segment 6
+			when "111"  =>   
+				Y <= "10000000"; -- segment 7
+			when others  =>   
+				Y <= "00000000"; -- segment -
+		end case;
+	end process;
+
+end;
