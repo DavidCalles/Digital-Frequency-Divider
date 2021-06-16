@@ -1,4 +1,4 @@
-Fitter Status : Successful - Tue Jun 15 17:32:40 2021
+Fitter Status : Successful - Tue Jun 15 20:31:58 2021
 Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 Revision Name : DCalles_Lab4_OctalDecoder
 Top-level Entity Name : DCalles_Lab4_OctalDecoder
@@ -6,7 +6,7 @@ Family : Cyclone V
 Device : 5CSEMA5F31C6
 Timing Models : Final
 Logic utilization (in ALMs) : 20 / 32,070 ( < 1 % )
-Total registers : 31
+Total registers : 30
 Total pins : 12 / 457 ( 3 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 4,065,280 ( 0 % )

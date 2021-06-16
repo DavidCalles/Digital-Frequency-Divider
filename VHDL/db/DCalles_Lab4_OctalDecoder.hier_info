@@ -1,40 +1,40 @@
 |DCalles_Lab4_OctalDecoder
-clk => Counter_28bit:Counter_28bit1.clkC
-X[0] => Mux0.IN9
-X[0] => Mux1.IN9
-X[0] => Mux2.IN9
-X[0] => Mux3.IN9
-X[0] => Mux4.IN9
-X[0] => Mux5.IN9
-X[0] => Mux6.IN9
-X[0] => Mux7.IN9
-X[1] => Mux0.IN8
-X[1] => Mux1.IN8
-X[1] => Mux2.IN8
-X[1] => Mux3.IN8
-X[1] => Mux4.IN8
-X[1] => Mux5.IN8
-X[1] => Mux6.IN8
-X[1] => Mux7.IN8
-X[2] => Mux0.IN7
-X[2] => Mux1.IN7
-X[2] => Mux2.IN7
-X[2] => Mux3.IN7
-X[2] => Mux4.IN7
-X[2] => Mux5.IN7
-X[2] => Mux6.IN7
-X[2] => Mux7.IN7
-Y[0] << Mux7.DB_MAX_OUTPUT_PORT_TYPE
-Y[1] << Mux6.DB_MAX_OUTPUT_PORT_TYPE
-Y[2] << Mux5.DB_MAX_OUTPUT_PORT_TYPE
-Y[3] << Mux4.DB_MAX_OUTPUT_PORT_TYPE
-Y[4] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
-Y[5] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
-Y[6] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
-Y[7] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+clk => Counter_32bit:Counter_32bit1.clkC
+selector[0] => Mux0.IN9
+selector[0] => Mux1.IN9
+selector[0] => Mux2.IN9
+selector[0] => Mux3.IN9
+selector[0] => Mux4.IN9
+selector[0] => Mux5.IN9
+selector[0] => Mux6.IN9
+selector[0] => Mux7.IN9
+selector[1] => Mux0.IN8
+selector[1] => Mux1.IN8
+selector[1] => Mux2.IN8
+selector[1] => Mux3.IN8
+selector[1] => Mux4.IN8
+selector[1] => Mux5.IN8
+selector[1] => Mux6.IN8
+selector[1] => Mux7.IN8
+selector[2] => Mux0.IN7
+selector[2] => Mux1.IN7
+selector[2] => Mux2.IN7
+selector[2] => Mux3.IN7
+selector[2] => Mux4.IN7
+selector[2] => Mux5.IN7
+selector[2] => Mux6.IN7
+selector[2] => Mux7.IN7
+Y[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1
 clkC => DFF_David:DFF0.clock
 prescaled[0] <= DFF_David:DFF22.q
 prescaled[1] <= DFF_David:DFF23.q
@@ -46,7 +46,7 @@ prescaled[6] <= DFF_David:DFF28.q
 prescaled[7] <= DFF_David:DFF29.q
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF0
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF0
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -55,7 +55,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF1
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF1
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -64,7 +64,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF2
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF2
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -73,7 +73,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF3
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF3
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -82,7 +82,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF4
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF4
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -91,7 +91,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF5
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF5
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -100,7 +100,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF6
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF6
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -109,7 +109,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF7
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF7
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -118,7 +118,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF8
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF8
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -127,7 +127,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF9
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF9
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -136,7 +136,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF10
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF10
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -145,7 +145,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF11
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF11
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -154,7 +154,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF12
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF12
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -163,7 +163,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF13
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF13
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -172,7 +172,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF14
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF14
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -181,7 +181,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF15
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF15
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -190,7 +190,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF16
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF16
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -199,7 +199,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF17
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF17
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -208,7 +208,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF18
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF18
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -217,7 +217,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF19
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF19
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -226,7 +226,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF20
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF20
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -235,7 +235,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF21
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF21
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -244,7 +244,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF22
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF22
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -253,7 +253,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF23
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF23
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -262,7 +262,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF24
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF24
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -271,7 +271,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF25
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF25
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -280,7 +280,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF26
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF26
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -289,7 +289,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF27
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF27
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -298,7 +298,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF28
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF28
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -307,7 +307,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF29
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF29
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -316,7 +316,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF30
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF30
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT
@@ -325,7 +325,7 @@ d => q.DATAB
 q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF31
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF31
 clock => q~reg0.CLK
 rst => q.OUTPUTSELECT
 pre => q.OUTPUTSELECT

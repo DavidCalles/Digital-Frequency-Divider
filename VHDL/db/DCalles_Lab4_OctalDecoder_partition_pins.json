@@ -36,15 +36,15 @@
 					"strict" : false
 				},
 				{
-					"name" : "X[2]",
+					"name" : "selector[2]",
 					"strict" : false
 				},
 				{
-					"name" : "X[0]",
+					"name" : "selector[0]",
 					"strict" : false
 				},
 				{
-					"name" : "X[1]",
+					"name" : "selector[1]",
 					"strict" : false
 				},
 				{

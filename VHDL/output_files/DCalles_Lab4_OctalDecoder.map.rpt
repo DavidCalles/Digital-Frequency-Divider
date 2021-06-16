@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DCalles_Lab4_OctalDecoder
-Tue Jun 15 17:30:10 2021
+Tue Jun 15 20:29:26 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -14,38 +14,38 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF31"
- 10. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF30"
- 11. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF29"
- 12. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF28"
- 13. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF27"
- 14. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF26"
- 15. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF25"
- 16. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF24"
- 17. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF23"
- 18. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF22"
- 19. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF21"
- 20. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF20"
- 21. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF19"
- 22. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF18"
- 23. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF17"
- 24. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF16"
- 25. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF15"
- 26. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF14"
- 27. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF13"
- 28. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF12"
- 29. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF11"
- 30. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF10"
- 31. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF9"
- 32. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF8"
- 33. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF7"
- 34. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF6"
- 35. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF5"
- 36. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF4"
- 37. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF3"
- 38. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF2"
- 39. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF1"
- 40. Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF0"
+  9. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF31"
+ 10. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF30"
+ 11. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF29"
+ 12. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF28"
+ 13. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF27"
+ 14. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF26"
+ 15. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF25"
+ 16. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF24"
+ 17. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF23"
+ 18. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF22"
+ 19. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF21"
+ 20. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF20"
+ 21. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF19"
+ 22. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF18"
+ 23. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF17"
+ 24. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF16"
+ 25. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF15"
+ 26. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF14"
+ 27. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF13"
+ 28. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF12"
+ 29. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF11"
+ 30. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF10"
+ 31. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF9"
+ 32. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF8"
+ 33. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF7"
+ 34. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF6"
+ 35. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF5"
+ 36. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF4"
+ 37. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF3"
+ 38. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF2"
+ 39. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF1"
+ 40. Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF0"
  41. Post-Synthesis Netlist Statistics for Top Partition
  42. Elapsed Time Per Partition
  43. Analysis & Synthesis Messages
@@ -75,7 +75,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Jun 15 17:30:10 2021       ;
+; Analysis & Synthesis Status     ; Successful - Tue Jun 15 20:29:25 2021       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; DCalles_Lab4_OctalDecoder                   ;
 ; Top-level Entity Name           ; DCalles_Lab4_OctalDecoder                   ;
@@ -200,42 +200,42 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                             ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                      ; Library ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+---------+
-; DCalles_Lab4_OctalDecoder.vhd    ; yes             ; User VHDL File  ; C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd ;         ;
-; Counter_28bit.vhd                ; yes             ; User VHDL File  ; C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/Counter_28bit.vhd             ;         ;
-; DFF_David.vhd                    ; yes             ; User VHDL File  ; C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DFF_David.vhd                 ;         ;
-+----------------------------------+-----------------+-----------------+-------------------------------------------------------------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                       ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                                                                                ; Library ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; DCalles_Lab4_OctalDecoder.vhd    ; yes             ; User VHDL File  ; C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd ;         ;
+; DFF_David.vhd                    ; yes             ; User VHDL File  ; C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DFF_David.vhd                 ;         ;
+; Counter_32bit.vhd                ; yes             ; User VHDL File  ; C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/Counter_32bit.vhd             ;         ;
++----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
-+----------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary              ;
-+---------------------------------------------+------------+
-; Resource                                    ; Usage      ;
-+---------------------------------------------+------------+
-; Estimate of Logic utilization (ALMs needed) ; 19         ;
-;                                             ;            ;
-; Combinational ALUT usage for logic          ; 38         ;
-;     -- 7 input functions                    ; 0          ;
-;     -- 6 input functions                    ; 0          ;
-;     -- 5 input functions                    ; 0          ;
-;     -- 4 input functions                    ; 8          ;
-;     -- <=3 input functions                  ; 30         ;
-;                                             ;            ;
-; Dedicated logic registers                   ; 30         ;
-;                                             ;            ;
-; I/O pins                                    ; 12         ;
-;                                             ;            ;
-; Total DSP Blocks                            ; 0          ;
-;                                             ;            ;
-; Maximum fan-out node                        ; X[2]~input ;
-; Maximum fan-out                             ; 8          ;
-; Total fan-out                               ; 142        ;
-; Average fan-out                             ; 1.54       ;
-+---------------------------------------------+------------+
++-----------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                     ;
++---------------------------------------------+-------------------+
+; Resource                                    ; Usage             ;
++---------------------------------------------+-------------------+
+; Estimate of Logic utilization (ALMs needed) ; 19                ;
+;                                             ;                   ;
+; Combinational ALUT usage for logic          ; 38                ;
+;     -- 7 input functions                    ; 0                 ;
+;     -- 6 input functions                    ; 0                 ;
+;     -- 5 input functions                    ; 0                 ;
+;     -- 4 input functions                    ; 8                 ;
+;     -- <=3 input functions                  ; 30                ;
+;                                             ;                   ;
+; Dedicated logic registers                   ; 30                ;
+;                                             ;                   ;
+; I/O pins                                    ; 12                ;
+;                                             ;                   ;
+; Total DSP Blocks                            ; 0                 ;
+;                                             ;                   ;
+; Maximum fan-out node                        ; selector[2]~input ;
+; Maximum fan-out                             ; 8                 ;
+; Total fan-out                               ; 142               ;
+; Average fan-out                             ; 1.54              ;
++---------------------------------------------+-------------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -244,37 +244,37 @@ https://fpgasoftware.intel.com/eula.
 ; Compilation Hierarchy Node        ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                     ; Entity Name               ; Library Name ;
 +-----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------+---------------------------+--------------+
 ; |DCalles_Lab4_OctalDecoder        ; 38 (8)              ; 30 (0)                    ; 0                 ; 0          ; 12   ; 0            ; |DCalles_Lab4_OctalDecoder                                              ; DCalles_Lab4_OctalDecoder ; work         ;
-;    |Counter_28bit:Counter_28bit1| ; 30 (0)              ; 30 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1                 ; Counter_28bit             ; work         ;
-;       |DFF_David:DFF0|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF0  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF10|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF10 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF11|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF11 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF12|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF12 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF13|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF13 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF14|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF14 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF15|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF15 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF16|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF16 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF17|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF17 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF18|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF18 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF19|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF19 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF1|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF1  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF20|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF20 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF21|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF21 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF22|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF22 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF23|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF23 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF24|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF24 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF25|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF25 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF26|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF26 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF27|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF27 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF28|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF28 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF29|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF29 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF2|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF2  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF3|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF3  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF4|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF4  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF5|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF5  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF6|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF6  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF7|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF7  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF8|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF8  ; DFF_David                 ; work         ;
-;       |DFF_David:DFF9|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_28bit:Counter_28bit1|DFF_David:DFF9  ; DFF_David                 ; work         ;
+;    |Counter_32bit:Counter_32bit1| ; 30 (0)              ; 30 (0)                    ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1                 ; Counter_32bit             ; work         ;
+;       |DFF_David:DFF0|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF0  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF10|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF10 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF11|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF11 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF12|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF12 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF13|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF13 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF14|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF14 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF15|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF15 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF16|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF16 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF17|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF17 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF18|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF18 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF19|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF19 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF1|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF1  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF20|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF20 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF21|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF21 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF22|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF22 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF23|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF23 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF24|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF24 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF25|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF25 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF26|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF26 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF27|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF27 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF28|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF28 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF29|           ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF29 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF2|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF2  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF3|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF3  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF4|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF4  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF5|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF5  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF6|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF6  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF7|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF7  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF8|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF8  ; DFF_David                 ; work         ;
+;       |DFF_David:DFF9|            ; 1 (1)               ; 1 (1)                     ; 0                 ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF9  ; DFF_David                 ; work         ;
 +-----------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-------------------------------------------------------------------------+---------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -295,7 +295,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF31" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF31" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -306,7 +306,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF30" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF30" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -317,7 +317,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF29" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF29" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -328,7 +328,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF28" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF28" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -339,7 +339,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF27" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF27" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -350,7 +350,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF26" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF26" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -361,7 +361,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF25" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF25" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -372,7 +372,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF24" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF24" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -383,7 +383,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF23" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF23" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -394,7 +394,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF22" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF22" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -405,7 +405,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF21" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF21" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -416,7 +416,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF20" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF20" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -427,7 +427,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF19" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF19" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -438,7 +438,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF18" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF18" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -449,7 +449,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF17" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF17" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -460,7 +460,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF16" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF16" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -471,7 +471,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF15" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF15" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -482,7 +482,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF14" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF14" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -493,7 +493,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF13" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF13" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -504,7 +504,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF12" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF12" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -515,7 +515,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF11" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF11" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -526,7 +526,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +--------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF10" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF10" ;
 +------+-------+----------+------------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                        ;
 +------+-------+----------+------------------------------------------------+
@@ -537,7 +537,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF9" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF9" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -548,7 +548,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF8" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF8" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -559,7 +559,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF7" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF7" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -570,7 +570,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF6" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF6" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -581,7 +581,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF5" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF5" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -592,7 +592,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF4" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF4" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -603,7 +603,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF3" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF3" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -614,7 +614,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF2" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF2" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -625,7 +625,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF1" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF1" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -636,7 +636,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +-------------------------------------------------------------------------+
-; Port Connectivity Checks: "Counter_28bit:Counter_28bit1|DFF_David:DFF0" ;
+; Port Connectivity Checks: "Counter_32bit:Counter_32bit1|DFF_David:DFF0" ;
 +------+-------+----------+-----------------------------------------------+
 ; Port ; Type  ; Severity ; Details                                       ;
 +------+-------+----------+-----------------------------------------------+
@@ -669,7 +669,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:01     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -679,34 +679,34 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Tue Jun 15 17:29:33 2021
+    Info: Processing started: Tue Jun 15 20:28:46 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DCalles_Lab4_OctalDecoder -c DCalles_Lab4_OctalDecoder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 2 design units, including 1 entities, in source file dcalles_lab4_octaldecoder.vhd
-    Info (12022): Found design unit 1: DCalles_Lab4_OctalDecoder-Behavioral File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 30
-    Info (12023): Found entity 1: DCalles_Lab4_OctalDecoder File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 19
-Info (12021): Found 2 design units, including 1 entities, in source file counter_28bit.vhd
-    Info (12022): Found design unit 1: Counter_28bit-sequecial File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/Counter_28bit.vhd Line: 29
-    Info (12023): Found entity 1: Counter_28bit File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/Counter_28bit.vhd Line: 19
+    Info (12022): Found design unit 1: DCalles_Lab4_OctalDecoder-Behavioral File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 33
+    Info (12023): Found entity 1: DCalles_Lab4_OctalDecoder File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 22
 Info (12021): Found 2 design units, including 1 entities, in source file dff_david.vhd
-    Info (12022): Found design unit 1: DFF_David-Behavioral File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DFF_David.vhd Line: 17
-    Info (12023): Found entity 1: DFF_David File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DFF_David.vhd Line: 5
+    Info (12022): Found design unit 1: DFF_David-Behavioral File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DFF_David.vhd Line: 40
+    Info (12023): Found entity 1: DFF_David File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DFF_David.vhd Line: 26
+Info (12021): Found 2 design units, including 1 entities, in source file counter_32bit.vhd
+    Info (12022): Found design unit 1: Counter_32bit-sequecial File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/Counter_32bit.vhd Line: 33
+    Info (12023): Found entity 1: Counter_32bit File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/Counter_32bit.vhd Line: 23
 Info (12127): Elaborating entity "DCalles_Lab4_OctalDecoder" for the top level hierarchy
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(64): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 64
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(66): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 66
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(68): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 68
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(70): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 70
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(72): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 72
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(74): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 74
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(76): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 76
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(78): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 78
-Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(80): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 80
-Info (12128): Elaborating entity "Counter_28bit" for hierarchy "Counter_28bit:Counter_28bit1" File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 54
-Warning (10540): VHDL Signal Declaration warning at Counter_28bit.vhd(51): used explicit default value for signal "enable" because signal was never assigned a value File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/Counter_28bit.vhd Line: 51
-Warning (10540): VHDL Signal Declaration warning at Counter_28bit.vhd(52): used explicit default value for signal "reset" because signal was never assigned a value File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/Counter_28bit.vhd Line: 52
-Warning (10540): VHDL Signal Declaration warning at Counter_28bit.vhd(53): used explicit default value for signal "preset" because signal was never assigned a value File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/Counter_28bit.vhd Line: 53
-Info (12128): Elaborating entity "DFF_David" for hierarchy "Counter_28bit:Counter_28bit1|DFF_David:DFF0" File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/Counter_28bit.vhd Line: 67
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(67): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 67
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(69): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 69
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(71): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 71
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(73): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 73
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(75): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 75
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(77): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 77
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(79): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 79
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(81): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 81
+Warning (10492): VHDL Process Statement warning at DCalles_Lab4_OctalDecoder.vhd(83): signal "prescaledSignal" is read inside the Process Statement but isn't in the Process Statement's sensitivity list File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 83
+Info (12128): Elaborating entity "Counter_32bit" for hierarchy "Counter_32bit:Counter_32bit1" File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/DCalles_Lab4_OctalDecoder.vhd Line: 56
+Warning (10540): VHDL Signal Declaration warning at Counter_32bit.vhd(54): used explicit default value for signal "enable" because signal was never assigned a value File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/Counter_32bit.vhd Line: 54
+Warning (10540): VHDL Signal Declaration warning at Counter_32bit.vhd(55): used explicit default value for signal "reset" because signal was never assigned a value File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/Counter_32bit.vhd Line: 55
+Warning (10540): VHDL Signal Declaration warning at Counter_32bit.vhd(56): used explicit default value for signal "preset" because signal was never assigned a value File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/Counter_32bit.vhd Line: 56
+Info (12128): Elaborating entity "DFF_David" for hierarchy "Counter_32bit:Counter_32bit1|DFF_David:DFF0" File: C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/Counter_32bit.vhd Line: 70
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -715,9 +715,9 @@ Info (21057): Implemented 50 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 38 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 4871 megabytes
-    Info: Processing ended: Tue Jun 15 17:30:10 2021
-    Info: Elapsed time: 00:00:37
-    Info: Total CPU time (on all processors): 00:01:37
+    Info: Peak virtual memory: 4873 megabytes
+    Info: Processing ended: Tue Jun 15 20:29:26 2021
+    Info: Elapsed time: 00:00:40
+    Info: Total CPU time (on all processors): 00:01:38
 
 
