@@ -1,0 +1,315 @@
+|DCalles_Lab4_OctalDecoder
+clk => clk.IN1
+selector[0] => Decoder0.IN2
+selector[1] => Decoder0.IN1
+selector[2] => Decoder0.IN0
+Y[0] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] << Y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1
+clkC => clkC.IN1
+prescaled[0] <= DFF_David:DFF22.port5
+prescaled[1] <= DFF_David:DFF23.port5
+prescaled[2] <= DFF_David:DFF24.port5
+prescaled[3] <= DFF_David:DFF25.port5
+prescaled[4] <= DFF_David:DFF26.port5
+prescaled[5] <= DFF_David:DFF27.port5
+prescaled[6] <= DFF_David:DFF28.port5
+prescaled[7] <= DFF_David:DFF29.port5
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF0
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF1
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF2
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF3
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF4
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF5
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF6
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF7
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF8
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF9
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF10
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF11
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF12
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF13
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF14
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF15
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF16
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF17
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF18
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF19
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF20
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF21
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF22
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF23
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF24
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF25
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF26
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF27
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF28
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF29
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF30
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF31
+clock => q~reg0.CLK
+rst => q.OUTPUTSELECT
+pre => q.OUTPUTSELECT
+en => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
