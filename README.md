@@ -11,3 +11,7 @@ VHDL and Verilog implementations for a clock frequency divider implemented at a 
 -Switches 0, 1, and 2 for output selector.
 -RLEDS 0-7 for prescaled clock output.
 -50MHz clock signal.
+
+## Main code
+The code is presented in a Quartus II project-type format. 
+Have in mind that the top level entity definition in both implementations is in the "DCalles_Lab4_OctalDecoder" .vhd or .v file.
