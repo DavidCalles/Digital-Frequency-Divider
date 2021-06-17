@@ -3,1443 +3,1443 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1100mV 85C Model Setup 'clk'
-Slack : -2.514
-TNS   : -2.514
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : -2.163
-TNS   : -2.163
+Slack : -2.476
+TNS   : -2.476
 
 Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : -1.959
-TNS   : -1.959
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : -1.951
-TNS   : -1.951
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : -1.933
-TNS   : -1.933
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : -1.929
-TNS   : -1.929
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : -1.928
-TNS   : -1.928
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : -1.903
-TNS   : -1.903
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : -1.853
-TNS   : -1.853
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : -1.838
-TNS   : -1.838
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : -1.814
-TNS   : -1.814
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : -1.809
-TNS   : -1.809
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : -1.759
-TNS   : -1.759
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : -1.749
-TNS   : -1.749
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : -1.742
-TNS   : -1.742
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : -1.739
-TNS   : -1.739
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : -1.734
-TNS   : -1.734
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : -1.733
-TNS   : -1.733
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : -1.716
-TNS   : -1.716
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : -1.700
-TNS   : -1.700
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : -1.696
-TNS   : -1.696
+Slack : -2.093
+TNS   : -2.093
 
 Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : -1.659
-TNS   : -1.659
+Slack : -2.046
+TNS   : -2.046
 
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : -1.648
-TNS   : -1.648
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : -2.024
+TNS   : -2.024
+
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : -1.998
+TNS   : -1.998
 
 Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : -1.630
-TNS   : -1.630
+Slack : -1.979
+TNS   : -1.979
 
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : -1.602
-TNS   : -1.602
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : -1.965
+TNS   : -1.965
+
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : -1.958
+TNS   : -1.958
 
 Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : -1.602
-TNS   : -1.602
+Slack : -1.937
+TNS   : -1.937
 
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : -1.564
-TNS   : -1.564
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : -1.924
+TNS   : -1.924
 
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : -1.502
-TNS   : -1.502
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : -1.463
-TNS   : -1.463
-
-Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : -0.744
-TNS   : -0.744
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : 0.228
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : 0.273
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : 0.399
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : 0.417
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : 0.423
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : 0.429
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : 0.431
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : 0.463
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : 0.466
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : 0.467
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : 0.504
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : 0.505
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : 0.509
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : 0.511
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : 0.512
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : 0.532
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : 0.537
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : 0.538
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : 0.546
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : 0.550
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : 0.578
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : 0.588
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : 0.588
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : 0.650
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : 0.654
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : 0.662
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : 0.673
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : 0.710
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : 0.772
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Hold 'clk'
-Slack : 0.873
-TNS   : 0.000
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : -0.402
-TNS   : -0.796
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : -0.394
-TNS   : -0.658
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : -0.394
-TNS   : -0.657
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : -0.394
-TNS   : -0.656
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : -0.394
-TNS   : -0.656
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : -0.394
-TNS   : -0.633
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : -0.394
-TNS   : -0.615
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : -0.394
-TNS   : -0.614
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : -0.394
-TNS   : -0.609
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : -0.394
-TNS   : -0.604
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : -0.394
-TNS   : -0.592
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : -0.394
-TNS   : -0.591
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : -0.394
-TNS   : -0.565
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : -0.394
-TNS   : -0.561
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : -0.394
-TNS   : -0.551
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : -0.394
-TNS   : -0.550
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : -0.394
-TNS   : -0.538
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : -0.394
-TNS   : -0.535
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : -0.394
-TNS   : -0.519
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : -0.394
-TNS   : -0.518
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : -0.394
-TNS   : -0.517
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : -0.394
-TNS   : -0.517
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : -0.394
-TNS   : -0.517
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : -0.394
-TNS   : -0.517
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : -0.394
-TNS   : -0.517
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : -0.394
-TNS   : -0.517
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : -0.394
-TNS   : -0.516
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : -0.394
-TNS   : -0.516
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : -0.394
-TNS   : -0.515
-
-Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : -0.394
-TNS   : -0.515
-
-Type  : Slow 1100mV 0C Model Setup 'clk'
-Slack : -2.392
-TNS   : -2.392
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : -2.096
-TNS   : -2.096
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : -1.920
-TNS   : -1.920
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : -1.910
-TNS   : -1.910
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
 Slack : -1.885
 TNS   : -1.885
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : -1.865
-TNS   : -1.865
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : -1.883
+TNS   : -1.883
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : -1.858
-TNS   : -1.858
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : -1.880
+TNS   : -1.880
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : -1.850
-TNS   : -1.850
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : -1.874
+TNS   : -1.874
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : -1.835
-TNS   : -1.835
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : -1.862
+TNS   : -1.862
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : -1.822
-TNS   : -1.822
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : -1.833
+TNS   : -1.833
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : -1.798
-TNS   : -1.798
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : -1.783
+TNS   : -1.783
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : -1.794
-TNS   : -1.794
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : -1.760
+TNS   : -1.760
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : -1.786
-TNS   : -1.786
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : -1.744
+TNS   : -1.744
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : -1.775
-TNS   : -1.775
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : -1.723
+TNS   : -1.723
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : -1.763
-TNS   : -1.763
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : -1.698
+TNS   : -1.698
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : -1.761
-TNS   : -1.761
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : -1.659
+TNS   : -1.659
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : -1.755
-TNS   : -1.755
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : -1.658
+TNS   : -1.658
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : -1.737
-TNS   : -1.737
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : -1.650
+TNS   : -1.650
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : -1.732
-TNS   : -1.732
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : -1.645
+TNS   : -1.645
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : -1.719
-TNS   : -1.719
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : -1.638
+TNS   : -1.638
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : -1.716
-TNS   : -1.716
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : -1.637
+TNS   : -1.637
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : -1.716
-TNS   : -1.716
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : -1.611
+TNS   : -1.611
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : -1.691
-TNS   : -1.691
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : -1.601
+TNS   : -1.601
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : -1.688
-TNS   : -1.688
+Type  : Slow 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : -0.615
+TNS   : -1.228
 
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : -1.633
-TNS   : -1.633
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : -1.585
-TNS   : -1.585
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : -1.557
-TNS   : -1.557
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : -1.541
-TNS   : -1.541
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : -1.500
-TNS   : -1.500
-
-Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : -0.696
-TNS   : -0.696
-
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : 0.319
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : 0.266
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : 0.358
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : 0.368
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : 0.433
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : 0.452
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : 0.447
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : 0.470
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : 0.468
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : 0.479
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : 0.481
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : 0.482
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : 0.527
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : 0.489
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : 0.536
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : 0.497
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : 0.550
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : 0.504
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : 0.557
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : 0.509
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : 0.573
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : 0.511
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : 0.574
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : 0.511
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : 0.575
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : 0.515
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : 0.524
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : 0.547
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : 0.551
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : 0.565
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : 0.566
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
 Slack : 0.582
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : 0.600
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : 0.596
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : 0.601
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : 0.605
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : 0.604
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : 0.626
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : 0.610
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : 0.646
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : 0.614
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : 0.647
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : 0.622
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : 0.625
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : 0.634
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : 0.644
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : 0.649
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : 0.662
-TNS   : 0.000
-
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
 Slack : 0.664
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : 0.709
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : 0.671
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : 0.737
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : 0.684
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : 0.771
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : 0.696
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Hold 'clk'
-Slack : 0.796
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : 0.732
 TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : -0.394
-TNS   : -0.776
+Type  : Slow 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : 0.789
+TNS   : 0.000
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : -0.394
-TNS   : -0.612
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.412
+TNS   : -0.806
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
 Slack : -0.394
-TNS   : -0.609
+TNS   : -1.037
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
 Slack : -0.394
-TNS   : -0.608
+TNS   : -0.659
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
 Slack : -0.394
-TNS   : -0.608
+TNS   : -0.656
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
 Slack : -0.394
-TNS   : -0.583
+TNS   : -0.656
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
 Slack : -0.394
-TNS   : -0.576
+TNS   : -0.655
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
 Slack : -0.394
-TNS   : -0.576
+TNS   : -0.654
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
 Slack : -0.394
-TNS   : -0.575
+TNS   : -0.652
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
 Slack : -0.394
-TNS   : -0.575
+TNS   : -0.611
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
 Slack : -0.394
-TNS   : -0.570
+TNS   : -0.602
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
 Slack : -0.394
-TNS   : -0.570
+TNS   : -0.596
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
 Slack : -0.394
-TNS   : -0.570
+TNS   : -0.594
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
 Slack : -0.394
-TNS   : -0.568
+TNS   : -0.594
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : -0.394
+TNS   : -0.591
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : -0.394
+TNS   : -0.585
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : -0.394
+TNS   : -0.574
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : -0.394
+TNS   : -0.571
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
 Slack : -0.394
 TNS   : -0.556
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
 Slack : -0.394
-TNS   : -0.550
+TNS   : -0.531
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
 Slack : -0.394
-TNS   : -0.548
+TNS   : -0.528
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
 Slack : -0.394
-TNS   : -0.542
+TNS   : -0.526
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
 Slack : -0.394
-TNS   : -0.541
+TNS   : -0.522
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
 Slack : -0.394
-TNS   : -0.539
+TNS   : -0.520
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
 Slack : -0.394
-TNS   : -0.537
+TNS   : -0.518
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
 Slack : -0.394
-TNS   : -0.527
+TNS   : -0.518
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
 Slack : -0.394
-TNS   : -0.527
+TNS   : -0.518
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : -0.394
+TNS   : -0.517
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : -0.394
+TNS   : -0.517
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : -0.394
+TNS   : -0.517
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : -0.394
+TNS   : -0.517
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -2.364
+TNS   : -2.364
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : -2.067
+TNS   : -2.067
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : -2.009
+TNS   : -2.009
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : -1.990
+TNS   : -1.990
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : -1.972
+TNS   : -1.972
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : -1.970
+TNS   : -1.970
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : -1.942
+TNS   : -1.942
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : -1.911
+TNS   : -1.911
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : -1.907
+TNS   : -1.907
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : -1.906
+TNS   : -1.906
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : -1.880
+TNS   : -1.880
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : -1.876
+TNS   : -1.876
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : -1.866
+TNS   : -1.866
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : -1.837
+TNS   : -1.837
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : -1.806
+TNS   : -1.806
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : -1.778
+TNS   : -1.778
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : -1.768
+TNS   : -1.768
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : -1.762
+TNS   : -1.762
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : -1.746
+TNS   : -1.746
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : -1.744
+TNS   : -1.744
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : -1.733
+TNS   : -1.733
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : -1.721
+TNS   : -1.721
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : -1.712
+TNS   : -1.712
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : -1.693
+TNS   : -1.693
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : -1.688
+TNS   : -1.688
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : -1.688
+TNS   : -1.688
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : -1.688
+TNS   : -1.688
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : -1.670
+TNS   : -1.670
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : -1.636
+TNS   : -1.636
+
+Type  : Slow 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : -0.537
+TNS   : -1.070
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : 0.279
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : 0.464
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : 0.548
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : 0.550
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : 0.562
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : 0.569
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : 0.574
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : 0.577
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : 0.585
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : 0.586
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : 0.588
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : 0.590
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : 0.599
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : 0.604
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : 0.609
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : 0.611
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : 0.617
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : 0.624
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : 0.652
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : 0.660
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : 0.662
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : 0.670
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : 0.707
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : 0.717
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : 0.725
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : 0.792
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : 0.835
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.398
+TNS   : -0.792
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : -0.394
+TNS   : -1.146
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : -0.394
+TNS   : -0.609
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
 Slack : -0.394
-TNS   : -0.525
+TNS   : -0.608
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
 Slack : -0.394
-TNS   : -0.519
+TNS   : -0.608
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
 Slack : -0.394
-TNS   : -0.515
+TNS   : -0.608
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
 Slack : -0.394
-TNS   : -0.515
+TNS   : -0.603
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
 Slack : -0.394
-TNS   : -0.515
+TNS   : -0.603
 
-Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
 Slack : -0.394
-TNS   : -0.509
+TNS   : -0.578
 
 Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
 Slack : -0.394
-TNS   : -0.508
+TNS   : -0.577
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : -0.394
+TNS   : -0.575
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : -0.394
+TNS   : -0.571
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : -0.394
+TNS   : -0.570
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : -0.394
+TNS   : -0.568
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : -0.394
+TNS   : -0.567
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : -0.394
+TNS   : -0.565
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : -0.394
+TNS   : -0.552
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : -0.394
+TNS   : -0.551
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : -0.394
+TNS   : -0.541
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : -0.394
+TNS   : -0.539
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : -0.394
+TNS   : -0.536
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : -0.394
+TNS   : -0.533
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : -0.394
+TNS   : -0.532
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : -0.394
+TNS   : -0.530
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : -0.394
+TNS   : -0.530
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : -0.394
+TNS   : -0.527
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : -0.394
+TNS   : -0.525
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : -0.394
+TNS   : -0.519
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : -0.394
+TNS   : -0.511
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : -0.394
+TNS   : -0.509
 
 Type  : Fast 1100mV 85C Model Setup 'clk'
-Slack : -1.975
-TNS   : -1.975
+Slack : -1.821
+TNS   : -1.821
 
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : -1.274
-TNS   : -1.274
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : -1.256
+TNS   : -1.256
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : -1.224
+TNS   : -1.224
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : -1.218
+TNS   : -1.218
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : -1.209
+TNS   : -1.209
 
 Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
 Slack : -1.199
 TNS   : -1.199
 
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : -1.195
-TNS   : -1.195
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : -1.193
-TNS   : -1.193
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : -1.186
-TNS   : -1.186
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : -1.154
-TNS   : -1.154
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : -1.131
-TNS   : -1.131
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : -1.118
-TNS   : -1.118
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : -1.106
-TNS   : -1.106
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : -1.104
-TNS   : -1.104
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : -1.103
-TNS   : -1.103
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : -1.087
-TNS   : -1.087
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : -1.063
-TNS   : -1.063
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : -1.037
-TNS   : -1.037
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : -1.172
+TNS   : -1.172
 
 Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : -1.023
-TNS   : -1.023
+Slack : -1.159
+TNS   : -1.159
 
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : -1.152
+TNS   : -1.152
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : -1.152
+TNS   : -1.152
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : -1.146
+TNS   : -1.146
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : -1.124
+TNS   : -1.124
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : -1.121
+TNS   : -1.121
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : -1.114
+TNS   : -1.114
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : -1.051
+TNS   : -1.051
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : -1.049
+TNS   : -1.049
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : -1.047
+TNS   : -1.047
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : -1.042
+TNS   : -1.042
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
 Slack : -1.010
 TNS   : -1.010
 
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : -0.992
-TNS   : -0.992
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : -0.965
-TNS   : -0.965
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : -0.954
-TNS   : -0.954
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : -0.936
-TNS   : -0.936
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : -0.915
-TNS   : -0.915
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : -0.897
-TNS   : -0.897
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : -1.010
+TNS   : -1.010
 
 Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : -0.888
-TNS   : -0.888
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : -0.885
-TNS   : -0.885
-
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : -0.884
-TNS   : -0.884
+Slack : -0.998
+TNS   : -0.998
 
 Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : -0.883
-TNS   : -0.883
+Slack : -0.976
+TNS   : -0.976
 
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : -0.860
-TNS   : -0.860
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : -0.964
+TNS   : -0.964
 
-Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : -0.834
-TNS   : -0.834
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : -0.862
+TNS   : -0.862
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : -0.841
+TNS   : -0.841
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : -0.833
+TNS   : -0.833
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : -0.833
+TNS   : -0.833
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : -0.832
+TNS   : -0.832
+
+Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : -0.823
+TNS   : -0.823
 
 Type  : Fast 1100mV 85C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : -0.130
-TNS   : -0.130
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : 0.032
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : 0.061
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : 0.065
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : 0.086
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : 0.102
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : 0.113
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : 0.127
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : 0.131
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : 0.145
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : 0.154
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : 0.174
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : 0.176
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : 0.177
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : 0.181
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : 0.196
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : 0.214
-TNS   : 0.000
+Slack : -0.079
+TNS   : -0.157
 
 Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : 0.223
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : 0.227
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : 0.235
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : 0.240
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : 0.245
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : 0.248
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : 0.287
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : 0.330
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : 0.343
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : 0.364
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : 0.397
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : 0.415
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : 0.457
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Hold 'clk'
-Slack : 0.891
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
-Slack : -0.381
-TNS   : -0.410
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : 0.077
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : 0.084
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : 0.091
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : 0.092
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : 0.094
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : 0.094
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : 0.113
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : 0.117
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : 0.117
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : 0.117
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : 0.120
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : 0.121
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : 0.121
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : 0.124
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : 0.124
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : 0.127
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : 0.127
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : 0.128
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : 0.136
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : 0.137
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : 0.137
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : 0.141
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : 0.149
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : 0.151
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : 0.152
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : 0.158
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : 0.160
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : 0.162
-TNS   : 0.000
-
-Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : 0.163
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Setup 'clk'
-Slack : -1.635
-TNS   : -1.635
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : -1.131
-TNS   : -1.131
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : -1.076
-TNS   : -1.076
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : -1.068
-TNS   : -1.068
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : -1.055
-TNS   : -1.055
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : -1.031
-TNS   : -1.031
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : -1.024
-TNS   : -1.024
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : -1.005
-TNS   : -1.005
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : -0.992
-TNS   : -0.992
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : -0.985
-TNS   : -0.985
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : -0.984
-TNS   : -0.984
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : -0.974
-TNS   : -0.974
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : -0.970
-TNS   : -0.970
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : -0.953
-TNS   : -0.953
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : -0.933
-TNS   : -0.933
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : -0.925
-TNS   : -0.925
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : -0.902
-TNS   : -0.902
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : -0.899
-TNS   : -0.899
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : -0.881
-TNS   : -0.881
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : -0.857
-TNS   : -0.857
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : -0.842
-TNS   : -0.842
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : -0.837
-TNS   : -0.837
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : -0.825
-TNS   : -0.825
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : -0.819
-TNS   : -0.819
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : -0.815
-TNS   : -0.815
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : -0.814
-TNS   : -0.814
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : -0.803
-TNS   : -0.803
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : -0.792
-TNS   : -0.792
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : -0.772
-TNS   : -0.772
-
-Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : -0.081
-TNS   : -0.081
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : -0.002
-TNS   : -0.002
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
 Slack : 0.024
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : 0.043
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : 0.077
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : 0.067
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : 0.077
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : 0.084
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : 0.085
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : 0.089
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : 0.087
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
 Slack : 0.091
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : 0.102
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : 0.106
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
-Slack : 0.107
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : 0.122
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
-Slack : 0.132
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
-Slack : 0.134
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : 0.139
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : 0.146
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : 0.165
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : 0.169
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : 0.169
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : 0.175
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : 0.176
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : 0.186
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : 0.205
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : 0.233
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : 0.270
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : 0.271
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : 0.285
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : 0.311
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
-Slack : 0.331
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : 0.371
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Hold 'clk'
-Slack : 0.619
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
-Slack : -0.365
-TNS   : -0.388
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
-Slack : 0.081
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
-Slack : 0.097
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
-Slack : 0.103
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
 Slack : 0.109
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
-Slack : 0.112
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : 0.125
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
-Slack : 0.113
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : 0.147
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
-Slack : 0.114
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : 0.158
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
-Slack : 0.114
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : 0.184
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
-Slack : 0.115
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : 0.192
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
-Slack : 0.130
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : 0.194
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
-Slack : 0.132
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : 0.195
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
-Slack : 0.136
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : 0.201
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
-Slack : 0.137
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : 0.206
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
-Slack : 0.142
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : 0.214
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
-Slack : 0.142
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : 0.237
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
-Slack : 0.142
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : 0.269
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
-Slack : 0.143
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : 0.272
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
-Slack : 0.144
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : 0.273
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : 0.293
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : 0.316
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : 0.361
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : 0.396
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : 0.666
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.390
+TNS   : -0.432
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : 0.034
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : 0.044
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : 0.080
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : 0.091
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : 0.092
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : 0.093
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : 0.106
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : 0.117
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : 0.118
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : 0.118
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : 0.119
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : 0.120
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : 0.124
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : 0.125
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : 0.131
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : 0.138
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : 0.139
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
 Slack : 0.145
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
-Slack : 0.146
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : 0.150
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
-Slack : 0.146
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : 0.150
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
-Slack : 0.146
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
-Slack : 0.149
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
-Slack : 0.149
-TNS   : 0.000
-
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
 Slack : 0.154
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
 Slack : 0.156
 TNS   : 0.000
 
-Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
-Slack : 0.156
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : 0.159
 TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : 0.159
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -1.482
+TNS   : -1.482
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : -1.124
+TNS   : -1.124
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : -1.085
+TNS   : -1.085
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : -1.079
+TNS   : -1.079
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : -1.065
+TNS   : -1.065
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : -1.058
+TNS   : -1.058
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : -1.037
+TNS   : -1.037
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : -1.034
+TNS   : -1.034
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : -1.031
+TNS   : -1.031
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : -1.026
+TNS   : -1.026
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : -1.023
+TNS   : -1.023
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : -1.020
+TNS   : -1.020
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : -1.004
+TNS   : -1.004
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : -0.998
+TNS   : -0.998
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : -0.967
+TNS   : -0.967
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : -0.947
+TNS   : -0.947
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : -0.943
+TNS   : -0.943
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : -0.941
+TNS   : -0.941
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : -0.917
+TNS   : -0.917
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : -0.908
+TNS   : -0.908
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : -0.896
+TNS   : -0.896
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : -0.884
+TNS   : -0.884
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : -0.884
+TNS   : -0.884
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : -0.792
+TNS   : -0.792
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : -0.785
+TNS   : -0.785
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : -0.784
+TNS   : -0.784
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : -0.777
+TNS   : -0.777
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : -0.773
+TNS   : -0.773
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : -0.769
+TNS   : -0.769
+
+Type  : Fast 1100mV 0C Model Setup 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : -0.024
+TNS   : -0.048
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : 0.024
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : 0.059
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : 0.060
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : 0.066
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : 0.067
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : 0.070
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : 0.091
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : 0.094
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : 0.129
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
+Slack : 0.134
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : 0.143
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : 0.200
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
+Slack : 0.208
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : 0.221
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : 0.222
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : 0.224
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : 0.237
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : 0.244
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : 0.287
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : 0.292
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : 0.299
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : 0.301
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : 0.433
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.376
+TNS   : -0.410
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF2|q'
-Slack : 0.161
+Slack : 0.040
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF4|q'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF18|q'
+Slack : 0.084
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF12|q'
+Slack : 0.099
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF26|q'
+Slack : 0.111
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF17|q'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF19|q'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF3|q'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF7|q'
+Slack : 0.114
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF0|q'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF5|q'
+Slack : 0.115
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF6|q'
+Slack : 0.122
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF16|q'
+Slack : 0.128
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF11|q'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF28|q'
+Slack : 0.140
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF21|q'
+Slack : 0.142
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF15|q'
+Slack : 0.143
 TNS   : 0.000
 
 Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF1|q'
-Slack : 0.162
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF25|q'
+Slack : 0.144
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF9|q'
+Slack : 0.145
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF24|q'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF13|q'
+Slack : 0.147
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF8|q'
+Slack : 0.154
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF20|q'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF27|q'
+Slack : 0.158
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF22|q'
+Slack : 0.160
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF10|q'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF14|q'
+Slack : 0.161
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'Counter_32bit:Counter_32bit1|DFF_David:DFF23|q'
+Slack : 0.163
 TNS   : 0.000
 
 ------------------------------------------------------------

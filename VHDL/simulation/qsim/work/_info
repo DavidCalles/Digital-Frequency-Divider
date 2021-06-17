@@ -8,37 +8,38 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/simulation/qsim
+dC:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/VHDL/simulation/qsim
 Edcalles_lab4_octaldecoder
-Z1 w1623790810
-Z2 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
-Z3 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
-Z4 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
-Z5 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
-Z6 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
-Z7 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
-Z8 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z9 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z10 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
-!i122 10
-R0
+Z0 w1623968565
+Z1 DPx8 cyclonev 18 cyclonev_atom_pack 0 22 3HQPc5MVbmOPN?>a5EBYj2
+Z2 DPx8 cyclonev 19 cyclonev_components 0 22 jZ]H46BQLgIP5mfRTO`3B1
+Z3 DPx12 altera_lnsim 23 altera_lnsim_components 0 22 ^Ch;U@;bMk1;>A2B<UV`k2
+Z4 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z5 DPx6 altera 11 dffeas_pack 0 22 dc5N=DKXMMTVYdUQ@D3FA2
+Z6 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z7 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z8 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z9 DPx6 altera 28 altera_primitives_components 0 22 ca:ehlQAg4;_gVV:^8MAg3
+!i122 30
+Z10 dC:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/simulation/qsim
 Z11 8DCalles_Lab4_OctalDecoder.vho
 Z12 FDCalles_Lab4_OctalDecoder.vho
 l0
 L39 1
-VOcYoHJIK?^f@9XmQNRAa12
-!s100 OL;Qn:V3imi:X<]hoancn0
+VEHIhlBz[ZWRYN_Z_NE6fP3
+!s100 DfVB;RUH=AB[MVmKa;mW81
 Z13 OV;C;2020.1;71
 32
-!s110 1623790815
+!s110 1623968566
 !i10b 1
-Z14 !s108 1623790815.000000
+Z14 !s108 1623968566.000000
 Z15 !s90 -work|work|DCalles_Lab4_OctalDecoder.vho|
 Z16 !s107 DCalles_Lab4_OctalDecoder.vho|
 !i113 1
 Z17 o-work work
 Z18 tExplicit 1 CvgOpt 0
 Astructure
+R1
 R2
 R3
 R4
@@ -47,16 +48,15 @@ R6
 R7
 R8
 R9
-R10
-DEx4 work 25 dcalles_lab4_octaldecoder 0 22 OcYoHJIK?^f@9XmQNRAa12
-!i122 10
-l128
-L62 720
-VRE]=4Q2BOO75bN2mHWj9?0
-!s100 gTSVa7PahNcXLFIQkl23E0
+DEx4 work 25 dcalles_lab4_octaldecoder 0 22 EHIhlBz[ZWRYN_Z_NE6fP3
+!i122 30
+l234
+L62 1808
+VAf5dJmG<<B77kElTOUlYX3
+!s100 Y]6cWWd]@dicjK2=^lbhK1
 R13
 32
-Z19 !s110 1623790816
+Z19 !s110 1623968567
 !i10b 1
 R14
 R15
@@ -65,13 +65,13 @@ R16
 R17
 R18
 Edcalles_lab4_octaldecoder_vhd_vec_tst
-Z20 w1623790804
+Z20 w1623968564
+R7
 R8
-R9
-!i122 11
-R0
-Z21 8Waveform.vwf.vht
-Z22 FWaveform.vwf.vht
+!i122 31
+R10
+Z21 8Waveform1.vwf.vht
+Z22 FWaveform1.vwf.vht
 l0
 L32 1
 V`=Tf]=?1lj8U=gb0VgQAd2
@@ -80,21 +80,21 @@ R13
 32
 R19
 !i10b 1
-Z23 !s108 1623790816.000000
-Z24 !s90 -work|work|Waveform.vwf.vht|
-Z25 !s107 Waveform.vwf.vht|
+Z23 !s108 1623968567.000000
+Z24 !s90 -work|work|Waveform1.vwf.vht|
+Z25 !s107 Waveform1.vwf.vht|
 !i113 1
 R17
 R18
 Adcalles_lab4_octaldecoder_arch
+R7
 R8
-R9
 Z26 DEx4 work 37 dcalles_lab4_octaldecoder_vhd_vec_tst 0 22 `=Tf]=?1lj8U=gb0VgQAd2
-!i122 11
+!i122 31
 l47
-Z27 L34 54
-VA9S=?YjP9i6FWhP73X:iG1
-!s100 oX^Ld4;JnO9X5UIgcOfLF0
+Z27 L34 52
+V@08_LhHB;?l_:[bT<TjHW2
+!s100 UV4N[2C[;Xjl6YQ;GQOj_3
 R13
 32
 R19

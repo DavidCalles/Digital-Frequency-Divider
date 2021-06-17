@@ -1,5 +1,5 @@
 Fitter report for DCalles_Lab4_OctalDecoder
-Tue Jun 15 20:31:58 2021
+Thu Jun 17 18:13:46 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
   2. Fitter Summary
   3. Fitter Settings
   4. Parallel Compilation
-  5. Ignored Assignments
+  5. Fitter Netlist Optimizations
   6. Incremental Compilation Preservation Summary
   7. Incremental Compilation Partition Settings
   8. Incremental Compilation Placement Preservation
@@ -62,7 +62,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Tue Jun 15 20:31:58 2021       ;
+; Fitter Status                   ; Successful - Thu Jun 17 18:13:46 2021       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; DCalles_Lab4_OctalDecoder                   ;
 ; Top-level Entity Name           ; DCalles_Lab4_OctalDecoder                   ;
@@ -70,7 +70,7 @@ https://fpgasoftware.intel.com/eula.
 ; Device                          ; 5CSEMA5F31C6                                ;
 ; Timing Models                   ; Final                                       ;
 ; Logic utilization (in ALMs)     ; 20 / 32,070 ( < 1 % )                       ;
-; Total registers                 ; 30                                          ;
+; Total registers                 ; 31                                          ;
 ; Total pins                      ; 12 / 457 ( 3 % )                            ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 4,065,280 ( 0 % )                       ;
@@ -156,20 +156,18 @@ https://fpgasoftware.intel.com/eula.
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
 ;     Processor 2            ;   0.4%      ;
-;     Processor 3            ;   0.4%      ;
-;     Processor 4            ;   0.4%      ;
+;     Processor 3            ;   0.3%      ;
+;     Processor 4            ;   0.3%      ;
 +----------------------------+-------------+
 
 
-+----------------------------------------------------------------------------------------+
-; Ignored Assignments                                                                    ;
-+----------+----------------+--------------+------------+---------------+----------------+
-; Name     ; Ignored Entity ; Ignored From ; Ignored To ; Ignored Value ; Ignored Source ;
-+----------+----------------+--------------+------------+---------------+----------------+
-; Location ;                ;              ; X[0]       ; PIN_AB12      ; QSF Assignment ;
-; Location ;                ;              ; X[1]       ; PIN_AC12      ; QSF Assignment ;
-; Location ;                ;              ; X[2]       ; PIN_AF9       ; QSF Assignment ;
-+----------+----------------+--------------+------------+---------------+----------------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Netlist Optimizations                                                                                                                                                                                                                                                  ;
++------------------------------------------------+------------+---------------------------------------------------+--------------------------+-----------+----------------+----------------------------------------------------------+------------------+-----------------------+
+; Node                                           ; Action     ; Operation                                         ; Reason                   ; Node Port ; Node Port Name ; Destination Node                                         ; Destination Port ; Destination Port Name ;
++------------------------------------------------+------------+---------------------------------------------------+--------------------------+-----------+----------------+----------------------------------------------------------+------------------+-----------------------+
+; Counter_32bit:Counter_32bit1|DFF_David:DFF29|q ; Duplicated ; Router Logic Cell Insertion and Logic Duplication ; Routability optimization ;           ;                ; Counter_32bit:Counter_32bit1|DFF_David:DFF29|q~DUPLICATE ;                  ;                       ;
++------------------------------------------------+------------+---------------------------------------------------+--------------------------+-----------+----------------+----------------------------------------------------------+------------------+-----------------------+
 
 
 +-------------------------------------------------------------------------------------------------+
@@ -221,8 +219,8 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 20 / 32,070        ; < 1 % ;
 ; ALMs needed [=A-B+C]                                        ; 20                 ;       ;
 ;     [A] ALMs used in final placement [=a+b+c+d]             ; 35 / 32,070        ; < 1 % ;
-;         [a] ALMs used for LUT logic and registers           ; 1                  ;       ;
-;         [b] ALMs used for LUT logic                         ; 19                 ;       ;
+;         [a] ALMs used for LUT logic and registers           ; 0                  ;       ;
+;         [b] ALMs used for LUT logic                         ; 20                 ;       ;
 ;         [c] ALMs used for registers                         ; 15                 ;       ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                  ;       ;
 ;     [B] Estimate of ALMs recoverable by dense packing       ; 15 / 32,070        ; < 1 % ;
@@ -234,8 +232,8 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ;                                                             ;                    ;       ;
 ; Difficulty packing design                                   ; Low                ;       ;
 ;                                                             ;                    ;       ;
-; Total LABs:  partially or completely used                   ; 17 / 3,207         ; < 1 % ;
-;     -- Logic LABs                                           ; 17                 ;       ;
+; Total LABs:  partially or completely used                   ; 18 / 3,207         ; < 1 % ;
+;     -- Logic LABs                                           ; 18                 ;       ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                  ;       ;
 ;                                                             ;                    ;       ;
 ; Combinational ALUT usage for logic                          ; 39                 ;       ;
@@ -244,19 +242,19 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ;     -- 5 input functions                                    ; 0                  ;       ;
 ;     -- 4 input functions                                    ; 8                  ;       ;
 ;     -- <=3 input functions                                  ; 31                 ;       ;
-; Combinational ALUT usage for route-throughs                 ; 22                 ;       ;
+; Combinational ALUT usage for route-throughs                 ; 25                 ;       ;
 ;                                                             ;                    ;       ;
-; Dedicated logic registers                                   ; 30                 ;       ;
+; Dedicated logic registers                                   ; 31                 ;       ;
 ;     -- By type:                                             ;                    ;       ;
 ;         -- Primary logic registers                          ; 30 / 64,140        ; < 1 % ;
-;         -- Secondary logic registers                        ; 0 / 64,140         ; 0 %   ;
+;         -- Secondary logic registers                        ; 1 / 64,140         ; < 1 % ;
 ;     -- By function:                                         ;                    ;       ;
 ;         -- Design implementation registers                  ; 30                 ;       ;
-;         -- Routing optimization registers                   ; 0                  ;       ;
+;         -- Routing optimization registers                   ; 1                  ;       ;
 ;                                                             ;                    ;       ;
 ; Virtual pins                                                ; 0                  ;       ;
 ; I/O pins                                                    ; 12 / 457           ; 3 %   ;
-;     -- Clock pins                                           ; 2 / 8              ; 25 %  ;
+;     -- Clock pins                                           ; 1 / 8              ; 13 %  ;
 ;     -- Dedicated input pins                                 ; 0 / 21             ; 0 %   ;
 ;                                                             ;                    ;       ;
 ; Hard processor system peripheral utilization                ;                    ;       ;
@@ -308,11 +306,11 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; Impedance control blocks                                    ; 0 / 4              ; 0 %   ;
 ; Hard Memory Controllers                                     ; 0 / 2              ; 0 %   ;
 ; Average interconnect usage (total/H/V)                      ; 0.1% / 0.1% / 0.0% ;       ;
-; Peak interconnect usage (total/H/V)                         ; 0.8% / 1.1% / 0.2% ;       ;
+; Peak interconnect usage (total/H/V)                         ; 1.1% / 1.5% / 0.2% ;       ;
 ; Maximum fan-out                                             ; 8                  ;       ;
 ; Highest non-global fan-out                                  ; 8                  ;       ;
-; Total fan-out                                               ; 164                ;       ;
-; Average fan-out                                             ; 1.43               ;       ;
+; Total fan-out                                               ; 169                ;       ;
+; Average fan-out                                             ; 1.42               ;       ;
 +-------------------------------------------------------------+--------------------+-------+
 
 
@@ -324,8 +322,8 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; Logic utilization (ALMs needed / total ALMs on device)      ; 20 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
 ; ALMs needed [=A-B+C]                                        ; 20                   ; 0                              ;
 ;     [A] ALMs used in final placement [=a+b+c+d]             ; 35 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
-;         [a] ALMs used for LUT logic and registers           ; 1                    ; 0                              ;
-;         [b] ALMs used for LUT logic                         ; 19                   ; 0                              ;
+;         [a] ALMs used for LUT logic and registers           ; 0                    ; 0                              ;
+;         [b] ALMs used for LUT logic                         ; 20                   ; 0                              ;
 ;         [c] ALMs used for registers                         ; 15                   ; 0                              ;
 ;         [d] ALMs used for memory (up to half of total ALMs) ; 0                    ; 0                              ;
 ;     [B] Estimate of ALMs recoverable by dense packing       ; 15 / 32070 ( < 1 % ) ; 0 / 32070 ( 0 % )              ;
@@ -337,8 +335,8 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ;                                                             ;                      ;                                ;
 ; Difficulty packing design                                   ; Low                  ; Low                            ;
 ;                                                             ;                      ;                                ;
-; Total LABs:  partially or completely used                   ; 17 / 3207 ( < 1 % )  ; 0 / 3207 ( 0 % )               ;
-;     -- Logic LABs                                           ; 17                   ; 0                              ;
+; Total LABs:  partially or completely used                   ; 18 / 3207 ( < 1 % )  ; 0 / 3207 ( 0 % )               ;
+;     -- Logic LABs                                           ; 18                   ; 0                              ;
 ;     -- Memory LABs (up to half of total LABs)               ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Combinational ALUT usage for logic                          ; 39                   ; 0                              ;
@@ -347,7 +345,7 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ;     -- 5 input functions                                    ; 0                    ; 0                              ;
 ;     -- 4 input functions                                    ; 8                    ; 0                              ;
 ;     -- <=3 input functions                                  ; 31                   ; 0                              ;
-; Combinational ALUT usage for route-throughs                 ; 22                   ; 0                              ;
+; Combinational ALUT usage for route-throughs                 ; 25                   ; 0                              ;
 ; Memory ALUT usage                                           ; 0                    ; 0                              ;
 ;     -- 64-address deep                                      ; 0                    ; 0                              ;
 ;     -- 32-address deep                                      ; 0                    ; 0                              ;
@@ -355,10 +353,10 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; Dedicated logic registers                                   ; 0                    ; 0                              ;
 ;     -- By type:                                             ;                      ;                                ;
 ;         -- Primary logic registers                          ; 30 / 64140 ( < 1 % ) ; 0 / 64140 ( 0 % )              ;
-;         -- Secondary logic registers                        ; 0 / 64140 ( 0 % )    ; 0 / 64140 ( 0 % )              ;
+;         -- Secondary logic registers                        ; 1 / 64140 ( < 1 % )  ; 0 / 64140 ( 0 % )              ;
 ;     -- By function:                                         ;                      ;                                ;
 ;         -- Design implementation registers                  ; 30                   ; 0                              ;
-;         -- Routing optimization registers                   ; 0                    ; 0                              ;
+;         -- Routing optimization registers                   ; 1                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ;                                                             ;                      ;                                ;
 ; Virtual pins                                                ; 0                    ; 0                              ;
@@ -374,8 +372,8 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ;     -- Registered Output Connections                        ; 0                    ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; Internal Connections                                        ;                      ;                                ;
-;     -- Total Connections                                    ; 164                  ; 0                              ;
-;     -- Registered Connections                               ; 67                   ; 0                              ;
+;     -- Total Connections                                    ; 169                  ; 0                              ;
+;     -- Registered Connections                               ; 68                   ; 0                              ;
 ;                                                             ;                      ;                                ;
 ; External Connections                                        ;                      ;                                ;
 ;     -- Top                                                  ; 0                    ; 0                              ;
@@ -408,9 +406,9 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; Name        ; Pin # ; I/O Bank ; X coordinate ; Y coordinate ; Z coordinate ; Combinational Fan-Out ; Registered Fan-Out ; Global ; Input Register ; PCI I/O Enabled ; Bus Hold ; Weak Pull Up ; I/O Standard ; Termination ; Termination Control Block ; Location assigned by ; Slew Rate ;
 +-------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 ; clk         ; AF14  ; 3B       ; 32           ; 0            ; 0            ; 1                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
-; selector[0] ; AG23  ; 4A       ; 64           ; 0            ; 34           ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; selector[1] ; AH24  ; 4A       ; 64           ; 0            ; 51           ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
-; selector[2] ; AD17  ; 4A       ; 64           ; 0            ; 17           ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; Fitter               ; no        ;
+; selector[0] ; AF9   ; 3A       ; 8            ; 0            ; 34           ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; selector[1] ; AC12  ; 3A       ; 16           ; 0            ; 0            ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
+; selector[2] ; AB12  ; 3A       ; 12           ; 0            ; 17           ; 8                     ; 0                  ; no     ; no             ; no              ; no       ; Off          ; 2.5 V        ; Off         ; --                        ; User                 ; no        ;
 +-------------+-------+----------+--------------+--------------+--------------+-----------------------+--------------------+--------+----------------+-----------------+----------+--------------+--------------+-------------+---------------------------+----------------------+-----------+
 
 
@@ -430,26 +428,26 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 +------+-------+----------+--------------+--------------+--------------+-----------------+------------------------+-----------+-----------------+------------+---------------+----------+--------------+--------------+------------------+-----------------------------------+---------------------------+----------------------------+-----------------------------+---------------------+-----------------------------+----------------------+----------------------+---------------------+
 
 
-+----------------------------------------------------------------------------+
-; I/O Bank Usage                                                             ;
-+----------+------------------+---------------+--------------+---------------+
-; I/O Bank ; Usage            ; VCCIO Voltage ; VREF Voltage ; VCCPD Voltage ;
-+----------+------------------+---------------+--------------+---------------+
-; B2L      ; 0 / 0 ( -- )     ; --            ; --           ; --            ;
-; B1L      ; 0 / 0 ( -- )     ; --            ; --           ; --            ;
-; 3A       ; 0 / 32 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 3B       ; 1 / 48 ( 2 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 4A       ; 10 / 80 ( 13 % ) ; 2.5V          ; --           ; 2.5V          ;
-; 5A       ; 1 / 32 ( 3 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 5B       ; 0 / 16 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 6B       ; 0 / 44 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 6A       ; 0 / 56 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 7A       ; 0 / 19 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 7B       ; 0 / 22 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 7C       ; 0 / 12 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 7D       ; 0 / 14 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-; 8A       ; 0 / 80 ( 0 % )   ; 2.5V          ; --           ; 2.5V          ;
-+----------+------------------+---------------+--------------+---------------+
++--------------------------------------------------------------------------+
+; I/O Bank Usage                                                           ;
++----------+----------------+---------------+--------------+---------------+
+; I/O Bank ; Usage          ; VCCIO Voltage ; VREF Voltage ; VCCPD Voltage ;
++----------+----------------+---------------+--------------+---------------+
+; B2L      ; 0 / 0 ( -- )   ; --            ; --           ; --            ;
+; B1L      ; 0 / 0 ( -- )   ; --            ; --           ; --            ;
+; 3A       ; 3 / 32 ( 9 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 3B       ; 1 / 48 ( 2 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 4A       ; 7 / 80 ( 9 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 5A       ; 1 / 32 ( 3 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 5B       ; 0 / 16 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 6B       ; 0 / 44 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 6A       ; 0 / 56 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 7A       ; 0 / 19 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 7B       ; 0 / 22 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 7C       ; 0 / 12 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 7D       ; 0 / 14 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
+; 8A       ; 0 / 80 ( 0 % ) ; 2.5V          ; --           ; 2.5V          ;
++----------+----------------+---------------+--------------+---------------+
 
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -526,7 +524,7 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; AB9      ; 42         ; 3A             ; #TDO                            ; output ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AB10     ;            ; --             ; VCCPGM                          ; power  ;              ; 1.8V/2.5V/3.0V/3.3V ; --           ;                 ; --       ; --           ;
 ; AB11     ;            ; --             ; VCC_AUX                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AB12     ; 72         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AB12     ; 72         ; 3A             ; selector[2]                     ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AB13     ; 88         ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AB14     ;            ; 3B             ; VCCIO3B                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AB15     ; 106        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -556,7 +554,7 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; AC9      ; 58         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AC10     ;            ; 3A             ; VCCPD3A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AC11     ;            ; 3A             ; VCCIO3A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AC12     ; 82         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AC12     ; 82         ; 3A             ; selector[1]                     ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AC13     ;            ; 3B, 4A         ; VCCPD3B4A                       ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AC14     ; 104        ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AC15     ;            ; 3B, 4A         ; VCCPD3B4A                       ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
@@ -591,7 +589,7 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; AD14     ; 98         ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AD15     ;            ;                ; DNU                             ;        ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AD16     ;            ; 3B, 4A         ; VCCPD3B4A                       ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
-; AD17     ; 160        ; 4A             ; selector[2]                     ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AD17     ; 160        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AD18     ;            ; 4A             ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AD19     ; 184        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AD20     ; 199        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -643,7 +641,7 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; AF6      ; 75         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AF7      ;            ; 3A             ; VCCIO3A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AF8      ; 70         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; AF9      ; 67         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
+; AF9      ; 67         ; 3A             ; selector[0]                     ; input  ; 2.5 V        ;                     ; Column I/O   ; Y               ; no       ; Off          ;
 ; AF10     ; 57         ; 3A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AF11     ; 87         ; 3B             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AF12     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
@@ -687,7 +685,7 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; AG20     ; 157        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG21     ; 143        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG22     ; 166        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; AG23     ; 163        ; 4A             ; selector[0]                     ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AG23     ; 163        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG24     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AG25     ; 190        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AG26     ; 203        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -718,7 +716,7 @@ The pin-out file can be found in C:/Users/yodav/Documents/Conestoga_College/FIRS
 ; AH21     ;            ;                ; GND                             ; gnd    ;              ;                     ; --           ;                 ; --       ; --           ;
 ; AH22     ; 164        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH23     ; 174        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
-; AH24     ; 161        ; 4A             ; selector[1]                     ; input  ; 2.5 V        ;                     ; Column I/O   ; N               ; no       ; Off          ;
+; AH24     ; 161        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH25     ; 188        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
 ; AH26     ;            ; 4A             ; VCCIO4A                         ; power  ;              ; 2.5V                ; --           ;                 ; --       ; --           ;
 ; AH27     ; 201        ; 4A             ; RESERVED_INPUT_WITH_WEAK_PULLUP ;        ;              ;                     ; Column I/O   ;                 ; no       ; On           ;
@@ -1374,9 +1372,6 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ; selector[0] ; Incomplete set of assignments ;
 ; selector[1] ; Incomplete set of assignments ;
 ; clk         ; Incomplete set of assignments ;
-; selector[2] ; Missing location assignment   ;
-; selector[0] ; Missing location assignment   ;
-; selector[1] ; Missing location assignment   ;
 +-------------+-------------------------------+
 
 
@@ -1385,8 +1380,8 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-----------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-------------------------------------------------------------------------+---------------------------+--------------+
 ; Compilation Hierarchy Node        ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                                     ; Entity Name               ; Library Name ;
 +-----------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+-------------------------------------------------------------------------+---------------------------+--------------+
-; |DCalles_Lab4_OctalDecoder        ; 19.5 (4.3)           ; 34.0 (4.3)                       ; 14.5 (0.0)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 39 (9)              ; 30 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 12   ; 0            ; |DCalles_Lab4_OctalDecoder                                              ; DCalles_Lab4_OctalDecoder ; work         ;
-;    |Counter_32bit:Counter_32bit1| ; 15.3 (0.0)           ; 29.8 (0.0)                       ; 14.5 (0.0)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 30 (0)              ; 30 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1                 ; Counter_32bit             ; work         ;
+; |DCalles_Lab4_OctalDecoder        ; 19.5 (4.3)           ; 34.5 (4.5)                       ; 15.0 (0.3)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 39 (9)              ; 31 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 12   ; 0            ; |DCalles_Lab4_OctalDecoder                                              ; DCalles_Lab4_OctalDecoder ; work         ;
+;    |Counter_32bit:Counter_32bit1| ; 15.3 (0.0)           ; 30.0 (0.0)                       ; 14.8 (0.0)                                        ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 30 (0)              ; 31 (0)                    ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1                 ; Counter_32bit             ; work         ;
 ;       |DFF_David:DFF0|            ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF0  ; DFF_David                 ; work         ;
 ;       |DFF_David:DFF1|            ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF1  ; DFF_David                 ; work         ;
 ;       |DFF_David:DFF10|           ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF10 ; DFF_David                 ; work         ;
@@ -1409,7 +1404,7 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;       |DFF_David:DFF26|           ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF26 ; DFF_David                 ; work         ;
 ;       |DFF_David:DFF27|           ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF27 ; DFF_David                 ; work         ;
 ;       |DFF_David:DFF28|           ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF28 ; DFF_David                 ; work         ;
-;       |DFF_David:DFF29|           ; 0.8 (0.8)            ; 0.8 (0.8)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF29 ; DFF_David                 ; work         ;
+;       |DFF_David:DFF29|           ; 0.8 (0.8)            ; 1.0 (1.0)                        ; 0.3 (0.3)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 2 (2)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF29 ; DFF_David                 ; work         ;
 ;       |DFF_David:DFF3|            ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF3  ; DFF_David                 ; work         ;
 ;       |DFF_David:DFF4|            ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF4  ; DFF_David                 ; work         ;
 ;       |DFF_David:DFF5|            ; 0.5 (0.5)            ; 1.0 (1.0)                        ; 0.5 (0.5)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 1 (1)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |DCalles_Lab4_OctalDecoder|Counter_32bit:Counter_32bit1|DFF_David:DFF5  ; DFF_David                 ; work         ;
@@ -1484,115 +1479,115 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                           ; Location      ; Fan-Out ; Usage ; Global ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +------------------------------------------------+---------------+---------+-------+--------+----------------------+------------------+---------------------------+
 ; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; FF_X33_Y2_N8  ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; FF_X39_Y2_N56 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; FF_X39_Y2_N50 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; FF_X39_Y3_N8  ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; FF_X39_Y3_N56 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; FF_X40_Y3_N38 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; FF_X40_Y3_N26 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; FF_X43_Y3_N38 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; FF_X43_Y3_N56 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; FF_X57_Y3_N32 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; FF_X56_Y3_N26 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; FF_X33_Y2_N56 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; FF_X56_Y3_N50 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; FF_X63_Y3_N20 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; FF_X64_Y3_N38 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; FF_X65_Y3_N56 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; FF_X66_Y3_N56 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; FF_X66_Y3_N26 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; FF_X67_Y3_N50 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; FF_X67_Y3_N20 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF28|q ; FF_X65_Y3_N8  ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; FF_X34_Y2_N38 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; FF_X36_Y2_N26 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; FF_X36_Y2_N56 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; FF_X35_Y2_N32 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; FF_X35_Y2_N26 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; FF_X34_Y2_N56 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; FF_X40_Y2_N32 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; FF_X40_Y2_N26 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; FF_X47_Y4_N50 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; FF_X48_Y4_N17 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; FF_X48_Y4_N47 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; FF_X51_Y3_N50 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; FF_X51_Y3_N26 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; FF_X52_Y3_N50 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; FF_X52_Y3_N20 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; FF_X53_Y3_N38 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; FF_X53_Y3_N26 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; FF_X56_Y3_N59 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; FF_X37_Y2_N44 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; FF_X56_Y3_N53 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; FF_X57_Y3_N32 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; FF_X57_Y3_N29 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; FF_X59_Y3_N50 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; FF_X60_Y3_N50 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; FF_X60_Y3_N56 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; FF_X61_Y3_N59 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; FF_X61_Y3_N50 ; 3       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF28|q ; FF_X62_Y3_N50 ; 4       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; FF_X37_Y2_N50 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; FF_X43_Y4_N38 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; FF_X43_Y4_N50 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; FF_X45_Y4_N56 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; FF_X45_Y4_N35 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; FF_X46_Y4_N2  ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; FF_X46_Y4_N44 ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; FF_X47_Y4_N8  ; 2       ; Clock ; no     ; --                   ; --               ; --                        ;
 ; clk                                            ; PIN_AF14      ; 1       ; Clock ; no     ; --                   ; --               ; --                        ;
 +------------------------------------------------+---------------+---------+-------+--------+----------------------+------------------+---------------------------+
 
 
-+-----------------------------------------------------------------------+
-; Routing Usage Summary                                                 ;
-+---------------------------------------------+-------------------------+
-; Routing Resource Type                       ; Usage                   ;
-+---------------------------------------------+-------------------------+
-; Block interconnects                         ; 93 / 289,320 ( < 1 % )  ;
-; C12 interconnects                           ; 0 / 13,420 ( 0 % )      ;
-; C2 interconnects                            ; 10 / 119,108 ( < 1 % )  ;
-; C4 interconnects                            ; 16 / 56,300 ( < 1 % )   ;
-; DQS bus muxes                               ; 0 / 25 ( 0 % )          ;
-; DQS-18 I/O buses                            ; 0 / 25 ( 0 % )          ;
-; DQS-9 I/O buses                             ; 0 / 25 ( 0 % )          ;
-; Direct links                                ; 2 / 289,320 ( < 1 % )   ;
-; Global clocks                               ; 0 / 16 ( 0 % )          ;
-; HPS SDRAM PLL inputs                        ; 0 / 1 ( 0 % )           ;
-; HPS SDRAM PLL outputs                       ; 0 / 1 ( 0 % )           ;
-; HPS_INTERFACE_BOOT_FROM_FPGA_INPUTs         ; 0 / 9 ( 0 % )           ;
-; HPS_INTERFACE_CLOCKS_RESETS_INPUTs          ; 0 / 7 ( 0 % )           ;
-; HPS_INTERFACE_CLOCKS_RESETS_OUTPUTs         ; 0 / 6 ( 0 % )           ;
-; HPS_INTERFACE_CROSS_TRIGGER_INPUTs          ; 0 / 18 ( 0 % )          ;
-; HPS_INTERFACE_CROSS_TRIGGER_OUTPUTs         ; 0 / 24 ( 0 % )          ;
-; HPS_INTERFACE_DBG_APB_INPUTs                ; 0 / 37 ( 0 % )          ;
-; HPS_INTERFACE_DBG_APB_OUTPUTs               ; 0 / 55 ( 0 % )          ;
-; HPS_INTERFACE_DMA_INPUTs                    ; 0 / 16 ( 0 % )          ;
-; HPS_INTERFACE_DMA_OUTPUTs                   ; 0 / 8 ( 0 % )           ;
-; HPS_INTERFACE_FPGA2HPS_INPUTs               ; 0 / 287 ( 0 % )         ;
-; HPS_INTERFACE_FPGA2HPS_OUTPUTs              ; 0 / 154 ( 0 % )         ;
-; HPS_INTERFACE_FPGA2SDRAM_INPUTs             ; 0 / 852 ( 0 % )         ;
-; HPS_INTERFACE_FPGA2SDRAM_OUTPUTs            ; 0 / 408 ( 0 % )         ;
-; HPS_INTERFACE_HPS2FPGA_INPUTs               ; 0 / 165 ( 0 % )         ;
-; HPS_INTERFACE_HPS2FPGA_LIGHT_WEIGHT_INPUTs  ; 0 / 67 ( 0 % )          ;
-; HPS_INTERFACE_HPS2FPGA_LIGHT_WEIGHT_OUTPUTs ; 0 / 156 ( 0 % )         ;
-; HPS_INTERFACE_HPS2FPGA_OUTPUTs              ; 0 / 282 ( 0 % )         ;
-; HPS_INTERFACE_INTERRUPTS_INPUTs             ; 0 / 64 ( 0 % )          ;
-; HPS_INTERFACE_INTERRUPTS_OUTPUTs            ; 0 / 42 ( 0 % )          ;
-; HPS_INTERFACE_JTAG_OUTPUTs                  ; 0 / 5 ( 0 % )           ;
-; HPS_INTERFACE_LOAN_IO_INPUTs                ; 0 / 142 ( 0 % )         ;
-; HPS_INTERFACE_LOAN_IO_OUTPUTs               ; 0 / 85 ( 0 % )          ;
-; HPS_INTERFACE_MPU_EVENT_STANDBY_INPUTs      ; 0 / 1 ( 0 % )           ;
-; HPS_INTERFACE_MPU_EVENT_STANDBY_OUTPUTs     ; 0 / 5 ( 0 % )           ;
-; HPS_INTERFACE_MPU_GENERAL_PURPOSE_INPUTs    ; 0 / 32 ( 0 % )          ;
-; HPS_INTERFACE_MPU_GENERAL_PURPOSE_OUTPUTs   ; 0 / 32 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_CAN_INPUTs         ; 0 / 2 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_CAN_OUTPUTs        ; 0 / 2 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_EMAC_INPUTs        ; 0 / 32 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_EMAC_OUTPUTs       ; 0 / 34 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_I2C_INPUTs         ; 0 / 8 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_I2C_OUTPUTs        ; 0 / 8 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_NAND_INPUTs        ; 0 / 12 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_NAND_OUTPUTs       ; 0 / 18 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_QSPI_INPUTs        ; 0 / 4 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_QSPI_OUTPUTs       ; 0 / 13 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_SDMMC_INPUTs       ; 0 / 13 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_SDMMC_OUTPUTs      ; 0 / 22 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_SPI_MASTER_INPUTs  ; 0 / 4 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_SPI_MASTER_OUTPUTs ; 0 / 14 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_SPI_SLAVE_INPUTs   ; 0 / 6 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_SPI_SLAVE_OUTPUTs  ; 0 / 4 ( 0 % )           ;
-; HPS_INTERFACE_PERIPHERAL_UART_INPUTs        ; 0 / 10 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_UART_OUTPUTs       ; 0 / 10 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_USB_INPUTs         ; 0 / 22 ( 0 % )          ;
-; HPS_INTERFACE_PERIPHERAL_USB_OUTPUTs        ; 0 / 34 ( 0 % )          ;
-; HPS_INTERFACE_STM_EVENT_INPUTs              ; 0 / 28 ( 0 % )          ;
-; HPS_INTERFACE_TEST_INPUTs                   ; 0 / 610 ( 0 % )         ;
-; HPS_INTERFACE_TEST_OUTPUTs                  ; 0 / 513 ( 0 % )         ;
-; HPS_INTERFACE_TPIU_TRACE_INPUTs             ; 0 / 2 ( 0 % )           ;
-; HPS_INTERFACE_TPIU_TRACE_OUTPUTs            ; 0 / 33 ( 0 % )          ;
-; Horizontal periphery clocks                 ; 0 / 72 ( 0 % )          ;
-; Local interconnects                         ; 14 / 84,580 ( < 1 % )   ;
-; Quadrant clocks                             ; 0 / 66 ( 0 % )          ;
-; R14 interconnects                           ; 42 / 12,676 ( < 1 % )   ;
-; R14/C12 interconnect drivers                ; 42 / 20,720 ( < 1 % )   ;
-; R3 interconnects                            ; 101 / 130,992 ( < 1 % ) ;
-; R6 interconnects                            ; 70 / 266,960 ( < 1 % )  ;
-; Spine clocks                                ; 0 / 360 ( 0 % )         ;
-; Wire stub REs                               ; 0 / 15,858 ( 0 % )      ;
-+---------------------------------------------+-------------------------+
++----------------------------------------------------------------------+
+; Routing Usage Summary                                                ;
++---------------------------------------------+------------------------+
+; Routing Resource Type                       ; Usage                  ;
++---------------------------------------------+------------------------+
+; Block interconnects                         ; 94 / 289,320 ( < 1 % ) ;
+; C12 interconnects                           ; 2 / 13,420 ( < 1 % )   ;
+; C2 interconnects                            ; 24 / 119,108 ( < 1 % ) ;
+; C4 interconnects                            ; 17 / 56,300 ( < 1 % )  ;
+; DQS bus muxes                               ; 0 / 25 ( 0 % )         ;
+; DQS-18 I/O buses                            ; 0 / 25 ( 0 % )         ;
+; DQS-9 I/O buses                             ; 0 / 25 ( 0 % )         ;
+; Direct links                                ; 1 / 289,320 ( < 1 % )  ;
+; Global clocks                               ; 0 / 16 ( 0 % )         ;
+; HPS SDRAM PLL inputs                        ; 0 / 1 ( 0 % )          ;
+; HPS SDRAM PLL outputs                       ; 0 / 1 ( 0 % )          ;
+; HPS_INTERFACE_BOOT_FROM_FPGA_INPUTs         ; 0 / 9 ( 0 % )          ;
+; HPS_INTERFACE_CLOCKS_RESETS_INPUTs          ; 0 / 7 ( 0 % )          ;
+; HPS_INTERFACE_CLOCKS_RESETS_OUTPUTs         ; 0 / 6 ( 0 % )          ;
+; HPS_INTERFACE_CROSS_TRIGGER_INPUTs          ; 0 / 18 ( 0 % )         ;
+; HPS_INTERFACE_CROSS_TRIGGER_OUTPUTs         ; 0 / 24 ( 0 % )         ;
+; HPS_INTERFACE_DBG_APB_INPUTs                ; 0 / 37 ( 0 % )         ;
+; HPS_INTERFACE_DBG_APB_OUTPUTs               ; 0 / 55 ( 0 % )         ;
+; HPS_INTERFACE_DMA_INPUTs                    ; 0 / 16 ( 0 % )         ;
+; HPS_INTERFACE_DMA_OUTPUTs                   ; 0 / 8 ( 0 % )          ;
+; HPS_INTERFACE_FPGA2HPS_INPUTs               ; 0 / 287 ( 0 % )        ;
+; HPS_INTERFACE_FPGA2HPS_OUTPUTs              ; 0 / 154 ( 0 % )        ;
+; HPS_INTERFACE_FPGA2SDRAM_INPUTs             ; 0 / 852 ( 0 % )        ;
+; HPS_INTERFACE_FPGA2SDRAM_OUTPUTs            ; 0 / 408 ( 0 % )        ;
+; HPS_INTERFACE_HPS2FPGA_INPUTs               ; 0 / 165 ( 0 % )        ;
+; HPS_INTERFACE_HPS2FPGA_LIGHT_WEIGHT_INPUTs  ; 0 / 67 ( 0 % )         ;
+; HPS_INTERFACE_HPS2FPGA_LIGHT_WEIGHT_OUTPUTs ; 0 / 156 ( 0 % )        ;
+; HPS_INTERFACE_HPS2FPGA_OUTPUTs              ; 0 / 282 ( 0 % )        ;
+; HPS_INTERFACE_INTERRUPTS_INPUTs             ; 0 / 64 ( 0 % )         ;
+; HPS_INTERFACE_INTERRUPTS_OUTPUTs            ; 0 / 42 ( 0 % )         ;
+; HPS_INTERFACE_JTAG_OUTPUTs                  ; 0 / 5 ( 0 % )          ;
+; HPS_INTERFACE_LOAN_IO_INPUTs                ; 0 / 142 ( 0 % )        ;
+; HPS_INTERFACE_LOAN_IO_OUTPUTs               ; 0 / 85 ( 0 % )         ;
+; HPS_INTERFACE_MPU_EVENT_STANDBY_INPUTs      ; 0 / 1 ( 0 % )          ;
+; HPS_INTERFACE_MPU_EVENT_STANDBY_OUTPUTs     ; 0 / 5 ( 0 % )          ;
+; HPS_INTERFACE_MPU_GENERAL_PURPOSE_INPUTs    ; 0 / 32 ( 0 % )         ;
+; HPS_INTERFACE_MPU_GENERAL_PURPOSE_OUTPUTs   ; 0 / 32 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_CAN_INPUTs         ; 0 / 2 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_CAN_OUTPUTs        ; 0 / 2 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_EMAC_INPUTs        ; 0 / 32 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_EMAC_OUTPUTs       ; 0 / 34 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_I2C_INPUTs         ; 0 / 8 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_I2C_OUTPUTs        ; 0 / 8 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_NAND_INPUTs        ; 0 / 12 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_NAND_OUTPUTs       ; 0 / 18 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_QSPI_INPUTs        ; 0 / 4 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_QSPI_OUTPUTs       ; 0 / 13 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_SDMMC_INPUTs       ; 0 / 13 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_SDMMC_OUTPUTs      ; 0 / 22 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_SPI_MASTER_INPUTs  ; 0 / 4 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_SPI_MASTER_OUTPUTs ; 0 / 14 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_SPI_SLAVE_INPUTs   ; 0 / 6 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_SPI_SLAVE_OUTPUTs  ; 0 / 4 ( 0 % )          ;
+; HPS_INTERFACE_PERIPHERAL_UART_INPUTs        ; 0 / 10 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_UART_OUTPUTs       ; 0 / 10 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_USB_INPUTs         ; 0 / 22 ( 0 % )         ;
+; HPS_INTERFACE_PERIPHERAL_USB_OUTPUTs        ; 0 / 34 ( 0 % )         ;
+; HPS_INTERFACE_STM_EVENT_INPUTs              ; 0 / 28 ( 0 % )         ;
+; HPS_INTERFACE_TEST_INPUTs                   ; 0 / 610 ( 0 % )        ;
+; HPS_INTERFACE_TEST_OUTPUTs                  ; 0 / 513 ( 0 % )        ;
+; HPS_INTERFACE_TPIU_TRACE_INPUTs             ; 0 / 2 ( 0 % )          ;
+; HPS_INTERFACE_TPIU_TRACE_OUTPUTs            ; 0 / 33 ( 0 % )         ;
+; Horizontal periphery clocks                 ; 0 / 72 ( 0 % )         ;
+; Local interconnects                         ; 15 / 84,580 ( < 1 % )  ;
+; Quadrant clocks                             ; 0 / 66 ( 0 % )         ;
+; R14 interconnects                           ; 48 / 12,676 ( < 1 % )  ;
+; R14/C12 interconnect drivers                ; 48 / 20,720 ( < 1 % )  ;
+; R3 interconnects                            ; 77 / 130,992 ( < 1 % ) ;
+; R6 interconnects                            ; 88 / 266,960 ( < 1 % ) ;
+; Spine clocks                                ; 0 / 360 ( 0 % )        ;
+; Wire stub REs                               ; 0 / 15,858 ( 0 % )     ;
++---------------------------------------------+------------------------+
 
 
 +------------------------------------------+
@@ -1645,28 +1640,28 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------+-----------+-----------------------------------+------------------------------------------------------------------------------------+----------+--------------------------------------------------------------------------+---------------------+-------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; I/O Rules Matrix                                                                                                                                                                                                                                                                                                                                                                                                                              ;
-+--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
-; Pin/Rules          ; IO_000001    ; IO_000002    ; IO_000003    ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007    ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000034    ;
-+--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
-; Total Pass         ; 9            ; 0            ; 9            ; 0            ; 0            ; 12        ; 9            ; 0            ; 12        ; 12        ; 0            ; 8            ; 0            ; 0            ; 0            ; 0            ; 8            ; 0            ; 0            ; 0            ; 0            ; 8            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Total Unchecked    ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Total Inapplicable ; 3            ; 12           ; 3            ; 12           ; 12           ; 0         ; 3            ; 12           ; 0         ; 0         ; 12           ; 4            ; 12           ; 12           ; 12           ; 12           ; 4            ; 12           ; 12           ; 12           ; 12           ; 4            ; 12           ; 12           ; 12           ; 12           ; 12           ; 12           ;
-; Total Fail         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
-; Y[0]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; Y[1]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; Y[2]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; Y[3]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; Y[4]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; Y[5]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; Y[6]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; Y[7]               ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; selector[2]        ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; selector[0]        ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; selector[1]        ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-; clk                ; Pass         ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Pass      ; Pass         ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
-+--------------------+--------------+--------------+--------------+--------------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; I/O Rules Matrix                                                                                                                                                                                                                                                                                                                                                                                                                     ;
++--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
+; Pin/Rules          ; IO_000001 ; IO_000002    ; IO_000003 ; IO_000004    ; IO_000005    ; IO_000006 ; IO_000007 ; IO_000008    ; IO_000009 ; IO_000010 ; IO_000011    ; IO_000012    ; IO_000013    ; IO_000014    ; IO_000015    ; IO_000018    ; IO_000019    ; IO_000020    ; IO_000021    ; IO_000022    ; IO_000023    ; IO_000024    ; IO_000026    ; IO_000027    ; IO_000045    ; IO_000046    ; IO_000047    ; IO_000034    ;
++--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
+; Total Pass         ; 12        ; 0            ; 12        ; 0            ; 0            ; 12        ; 12        ; 0            ; 12        ; 12        ; 0            ; 8            ; 0            ; 0            ; 0            ; 0            ; 8            ; 0            ; 0            ; 0            ; 0            ; 8            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Total Unchecked    ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Total Inapplicable ; 0         ; 12           ; 0         ; 12           ; 12           ; 0         ; 0         ; 12           ; 0         ; 0         ; 12           ; 4            ; 12           ; 12           ; 12           ; 12           ; 4            ; 12           ; 12           ; 12           ; 12           ; 4            ; 12           ; 12           ; 12           ; 12           ; 12           ; 12           ;
+; Total Fail         ; 0         ; 0            ; 0         ; 0            ; 0            ; 0         ; 0         ; 0            ; 0         ; 0         ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ; 0            ;
+; Y[0]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; Y[1]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; Y[2]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; Y[3]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; Y[4]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; Y[5]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; Y[6]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; Y[7]               ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Pass         ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; selector[2]        ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; selector[0]        ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; selector[1]        ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
+; clk                ; Pass      ; Inapplicable ; Pass      ; Inapplicable ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Pass      ; Pass      ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ; Inapplicable ;
++--------------------+-----------+--------------+-----------+--------------+--------------+-----------+-----------+--------------+-----------+-----------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+--------------+
 
 
 +------------------------------------------------------------------------------------------------+
@@ -1717,35 +1712,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------+------------------------------------------------+-------------------+
 ; Source Clock(s)                                ; Destination Clock(s)                           ; Delay Added in ns ;
 +------------------------------------------------+------------------------------------------------+-------------------+
-; clk                                            ; clk                                            ; 4.3               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; 2.5               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; 2.5               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; 2.3               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; 2.1               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; 2.1               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; 2.0               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; 2.0               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; 2.0               ;
+; clk                                            ; clk                                            ; 4.5               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; 2.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; 2.3               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; 2.3               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; 2.2               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; 2.2               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; 2.1               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; 2.1               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; 2.1               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; 2.0               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; 2.0               ;
 ; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; 2.0               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; 2.0               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; 2.0               ;
 ; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; 1.9               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; 1.9               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; 1.9               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; 1.8               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; 1.7               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; 1.7               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; 1.7               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; 1.7               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; 1.6               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; 1.9               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; 1.6               ;
 ; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; 1.6               ;
 ; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; 1.6               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; 1.6               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; 1.6               ;
 ; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; 1.6               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; 1.6               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; 1.6               ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; 1.6               ;
 ; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; 1.6               ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; 1.6               ;
 +------------------------------------------------+------------------------------------------------+-------------------+
 Note: For more information on problematic transfers, consider running the Fitter again with the Optimize hold timing option (Settings Menu) turned off.
 This will disable optimization of problematic paths and expose them for further analysis using the Timing Analyzer.
@@ -1756,37 +1751,38 @@ This will disable optimization of problematic paths and expose them for further 
 +------------------------------------------------+------------------------------------------------+-------------------+
 ; Source Register                                ; Destination Register                           ; Delay Added in ns ;
 +------------------------------------------------+------------------------------------------------+-------------------+
-; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; 4.346             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; 2.542             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; 2.522             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; 2.309             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; 2.062             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; 2.056             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; 2.020             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; 2.016             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; 1.966             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; 1.961             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; 1.948             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; 1.932             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF28|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF28|q ; 1.929             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; 1.764             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; 1.729             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; 1.708             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; 1.684             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; 1.684             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; 1.581             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; 1.580             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; 1.580             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; 1.580             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; 1.580             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; 1.578             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; 1.572             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; 1.566             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; 1.564             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; 1.564             ;
-; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; 1.557             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF0|q  ; 4.500             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF3|q  ; 2.562             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF13|q ; 2.314             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF5|q  ; 2.296             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF1|q  ; 2.250             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF19|q ; 2.168             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF23|q ; 2.076             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF17|q ; 2.076             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF21|q ; 2.064             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF7|q  ; 2.010             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF28|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF28|q ; 2.006             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF24|q ; 1.986             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF11|q ; 1.980             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF15|q ; 1.969             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF26|q ; 1.937             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF9|q  ; 1.932             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF2|q  ; 1.580             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF18|q ; 1.580             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF10|q ; 1.576             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF6|q  ; 1.570             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF16|q ; 1.566             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF27|q ; 1.564             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF25|q ; 1.564             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF8|q  ; 1.564             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF14|q ; 1.564             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; Counter_32bit:Counter_32bit1|DFF_David:DFF4|q  ; 1.557             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF12|q ; 1.554             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF20|q ; 1.554             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF22|q ; 1.554             ;
+; Counter_32bit:Counter_32bit1|DFF_David:DFF29|q ; Counter_32bit:Counter_32bit1|DFF_David:DFF29|q ; 0.154             ;
 +------------------------------------------------+------------------------------------------------+-------------------+
-Note: This table only shows the top 29 path(s) that have the largest delay added for hold.
+Note: This table only shows the top 30 path(s) that have the largest delay added for hold.
 
 
 +-----------------+
@@ -1800,17 +1796,12 @@ Info (21076): Low junction temperature operating condition is not set. Assuming 
 Info (171003): Fitter is performing an Auto Fit compilation, which may decrease Fitter effort to reduce compilation time
 Warning (292013): Feature LogicLock is only available with a valid subscription license. You can purchase a software subscription to gain full access to this feature.
 Warning (15714): Some pins have incomplete I/O assignments. Refer to the I/O Assignment Warnings report for details
-Critical Warning (169085): No exact pin location assignment(s) for 3 pins of 12 total pins. For the list of pins please refer to the I/O Assignment Warnings table in the fitter report.
 Info (184020): Starting Fitter periphery placement operations
 Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:00
 Info (176233): Starting register packing
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Warning (15705): Ignored locations or region assignments to the following nodes
-    Warning (15706): Node "X[0]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "X[1]" is assigned to location or region, but does not exist in design
-    Warning (15706): Node "X[2]" is assigned to location or region, but does not exist in design
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:54
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:11
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'DCalles_Lab4_OctalDecoder.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
 Info (332143): No user constrained clock uncertainty found in the design. Calling "derive_clock_uncertainty"
@@ -1818,29 +1809,28 @@ Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Tim
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:05
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:01
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:07
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:01
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
-    Info (170196): Router estimated peak interconnect usage is 0% of the available device resources in the region that extends from location X33_Y0 to location X44_Y10
+    Info (170196): Router estimated peak interconnect usage is 1% of the available device resources in the region that extends from location X45_Y0 to location X55_Y10
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:07
-Info (11888): Total time spent on timing analysis during the Fitter is 2.90 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:02
+Info (11888): Total time spent on timing analysis during the Fitter is 0.59 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:12
-Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
 Info (144001): Generated suppressed messages file C:/Users/yodav/Documents/Conestoga_College/FIRST_TERM/Digital_Design/LABS/Lab4/Digital-Frequency-Divider/VHDL/output_files/DCalles_Lab4_OctalDecoder.fit.smsg
-Info: Quartus Prime Fitter was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 6441 megabytes
-    Info: Processing ended: Tue Jun 15 20:32:00 2021
-    Info: Elapsed time: 00:02:32
-    Info: Total CPU time (on all processors): 00:04:29
+Info: Quartus Prime Fitter was successful. 0 errors, 4 warnings
+    Info: Peak virtual memory: 6529 megabytes
+    Info: Processing ended: Thu Jun 17 18:13:47 2021
+    Info: Elapsed time: 00:00:33
+    Info: Total CPU time (on all processors): 00:01:04
 
 
 +----------------------------+

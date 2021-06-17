@@ -1,5 +1,5 @@
 Analysis & Synthesis report for DCalles_Lab4_OctalDecoder
-Tue Jun 15 20:29:26 2021
+Thu Jun 17 18:13:13 2021
 Quartus Prime Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
 
 
@@ -75,7 +75,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Tue Jun 15 20:29:25 2021       ;
+; Analysis & Synthesis Status     ; Successful - Thu Jun 17 18:13:13 2021       ;
 ; Quartus Prime Version           ; 20.1.1 Build 720 11/11/2020 SJ Lite Edition ;
 ; Revision Name                   ; DCalles_Lab4_OctalDecoder                   ;
 ; Top-level Entity Name           ; DCalles_Lab4_OctalDecoder                   ;
@@ -669,7 +669,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:00     ;
 +----------------+--------------+
 
 
@@ -679,7 +679,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 20.1.1 Build 720 11/11/2020 SJ Lite Edition
-    Info: Processing started: Tue Jun 15 20:28:46 2021
+    Info: Processing started: Thu Jun 17 18:13:04 2021
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off DCalles_Lab4_OctalDecoder -c DCalles_Lab4_OctalDecoder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -715,9 +715,9 @@ Info (21057): Implemented 50 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 38 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 13 warnings
-    Info: Peak virtual memory: 4873 megabytes
-    Info: Processing ended: Tue Jun 15 20:29:26 2021
-    Info: Elapsed time: 00:00:40
-    Info: Total CPU time (on all processors): 00:01:38
+    Info: Peak virtual memory: 4861 megabytes
+    Info: Processing ended: Thu Jun 17 18:13:13 2021
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:21
 
 
